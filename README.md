@@ -1,4 +1,28 @@
+<!-- Add a link to your live demo in Github Pages 🌐-->
+
+<!-- ☝️ replace this description with a description of your own work -->
+
+<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+
+<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+
+<!-- Maybe a table of contents here? 📚 -->
+
+<!-- How about a section that describes how to install this project? 🤓 -->
+
+<!-- ...but how does one use this project? What are its features 🤔 -->
+
+<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
+
+<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+
+
 # Browser Test
+
+Ik heb recent de browser test uitgevoerd. Ik ben erg tevreden met het resultaat. De test was vrij positief. Wat me mij opviel is dat wanneer javascript uit staat het filteren niet meer mogelijk is. Dit kan ik gelukkig gemakkelijk oplossen door de filter methode server sided af te laten handelen wanneer javascript niet beschikbaar is.
+
+De website die ik gebruikt heb voor het testen van me browser is mijn progressive-web-apps project. De code daarvan is [hier](https://github.com/Ramon96/progressive-web-apps-1920) terug te lezen. 
+En de live demo is [hier](https://progressive-web-apps.herokuapp.com/) terug te zien. 
 
 ## Safari apple iPod touch iOS 6.1.3
 Alles werkt behalve de filter.
@@ -102,20 +126,3 @@ Applicatie maakt geen gebruik van de localstorage en gaat hier dus niet op stuk.
 
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
