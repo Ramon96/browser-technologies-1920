@@ -16,6 +16,26 @@
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
 
+# Artikelen 
+## Everyone has javascript, right?
+Dit artikel gaat er heel erg over dat je moet na moet denken wat je website doet als er geen javascript aanwezig is.
+De rede dat iemand geen javascript hoeft niet te zijn omdat deze persoon zijn javascript uit heeft staan.
+* Wat als je in een trein zit en je verbinding valt weg voordat javascript is geladen. 
+* Wat nou als het bedrijf waar je voor werkt ter beveiliging javascript blokkeert?
+* Wat nou als het wifi waar je op zit of de advertentie's die je inlaad javascript injecteerd waardoor jou javascript niet meer geladen kan worden?
+* Wat nou als de browser die je gebruikt details van een andere applicatie aan het binnenhalen is?
+* Wat nou als de persoon gewoon javascript uit heeft gezet?
+* Wat nou als ze chrome's data besparing aan hebben staan? 
+* Wat nou als de gebruiker een plugin heeft geinstalleerd of een addon die met je contenet bemoeid?
+* Wat nou als de content delivery network eruit ligt die je in je website inlaad?
+* Wat als de browser je code niet ondersteunt?
+
+Dit zijn vragen die je in gedachte moet nemen want de kans is dat als een van deze dingen niet het geval is, javascript het niet doet en misschien je website dus ook niet..
+
+
+
+
+
 # Opdracht 1.1 
 Breek het web
 
