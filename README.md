@@ -39,6 +39,8 @@ Teveel javascript kan de gebruiker meer data kosten en het kost meer onderhoud o
 
 Wat belangrijk is om weg te nemen van dit artikel is dat een website bedoelt is om content af te leveren aan de gebruiker, en daar bestaat al iets handigs voor namelijk: HTML!. Gebruik dat dan ook. En er bestaan ook al iets heel mooois om je website mooi te houden, namelijk CSS. Je website kan namelijk alles al zonder javascript. Het is niet perse slecht om javascript te gebruiken maar gebruik dat dan ook echt om de usability verder te verbeteren. Want als javascript niet doet kan dat gewoon beteken dat gebruikers jou website helemaal niet zouden kunnen gebruiken en dat zou zonde zijn.
 
+Gebruik javascript als je er over nagedacht hebt dat het juist is. Vraag jezelf af: Dat wat ik wil doen, kan dat niet gewoon met html of css? Want als het antwoord daarop ja is dat is dat zonder twijfel het betere alternatief.
+
 
 # Opdracht 1.1 
 Breek het web
