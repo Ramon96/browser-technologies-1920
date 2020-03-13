@@ -24,6 +24,32 @@ Ik heb recent de browser test uitgevoerd. Ik ben erg tevreden met het resultaat.
 De website die ik gebruikt heb voor het testen van me browser is mijn progressive-web-apps project. De code daarvan is [hier](https://github.com/Ramon96/progressive-web-apps-1920) terug te lezen. 
 En de live demo is [hier](https://progressive-web-apps.herokuapp.com/) terug te zien. 
 
+Waarom dit project? 
+Ik heb tijdens de oba een voice interface gemaakt met behulp van Google assistance. 
+Tijdens Progressive-web-apps werkt ik verder aan aan mijn web app from scratch project.
+
+## Hoe heb ik de feature's getest.
+### Afbeeldingen uitzetten
+Ik heb in mijn browser instellingen de afbeeldingen uitgezet. Als nu blijkt dat de afbeeldingen zo belangrijk is dat de content niet meer te begrijpen is (omdat er bijvoorbeeld geen alt tag aanwezig is) of dat de layout zo dusdanig stuk gaat dat er niet meer normaal door de website te navigeren valt dan is dit een groot probleem.
+
+### Custom fonts uitzetten
+Custom fonts kan je testen door gewoon in de inspecter de font's uit te zetten. Als er geen fallback font is, of een websafe font dan kan dit een groot probleem veroozaken.
+
+### Kleur uitzetten en kleurenblindheid
+Dit is een van de makkelijkere feature's om te testen. Er zijn een heleboel website's die kunnen testen of je een goed contrast hebt. Ook zijn er tools om kleurenblindheid na te bootsen. 
+
+### een muis of trackpad
+Dit kan ik testen door niet aan mijn muis en trackpad te zitten en te proberen om door me site te navigeren.
+
+### Breedband internet uitzetten
+Je kan in de dev tools je internet throttelen en testen of je site het nog doet. Je kan natuurlijk ook je internet helemaal uitzetten.
+
+### Javascript uitzetten
+Je kan in je settings je javascript uitzetten.
+
+### Cookies niet accepteren
+Dit kan je testen door niet de cookie's te acceptern.
+
 ## Safari apple iPod touch iOS 6.1.3
 Alles werkt behalve de filter.
 Dit kan ik fixen door de filter ook server sided afgehandeld te laten worden als javascript niet beschikbaar is.
@@ -36,7 +62,7 @@ Dit kan ik fixen door de filter ook server sided afgehandeld te laten worden als
 Alles werkt naar behoren.
 
 
-## chrome 
+## Chrome 
 ### Afbeeldingen uitzetten
 De site doet het prima zonder image’s
 
