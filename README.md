@@ -168,7 +168,10 @@ Localstorage uitzetten
 Applicatie maakt geen gebruik van de localstorage en gaat hier dus niet op stuk.
 
 
+## De Screenreader.
 
+Al was het ff oefenen hoe een screenreader werkt. Was mijn website wel goed toegankelijk door middel van een screen reader.
+Een screenreader zal goed werken zolang je semantische html hebt en niet doormiddel van tabindex de tab order verstoort.
 
 
 
