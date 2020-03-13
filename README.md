@@ -16,6 +16,31 @@
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
 
+# Opdracht 1.1 
+Breek het web
+
+### Muis en trackpad werkt niet
+ 
+Ik heb voor deze feature mijn web app from scratch project gebruikt.
+Ik kon doormiddel van tab en shit + tab lekker door de site navigeren. 
+Met behulp van de spatie balk kan ik het dropdown menu openen.
+Met Enter kan ik m’n keuze maken.
+En met escape kan ik voorkomen dat ik die keuze moet maken.
+
+Dit werkt heel erg goed!
+
+#### Waarom is dat? 
+Omdat de belangrijke interactie’s in html formulieren zitten en a tags.
+
+#### Waarom is dat handig
+Als ik niet mijn muis kan bedienen omdat mijn muis stuk is, trackpad niet werkt. Er geen zin in heb. Problemen met me armen of handen. Dan is het handig dat ik nog steeds door de pagina kan navigeren.
+
+### Kleur uitzetten
+Ik heb voor deze feature een tool geïnstalleerd waarmee ik kleuren blindheid kan nabootsen. 
+Omdat ik niet veel kleur gebruik binnen me wafs project en nog niet zoveel afbeeldingen. Kan ik de site nog goed zien. Het enige probleem wat ik heb is dat ik de link naar de detail pagina niet goed kan zien. Het heeft hetzelfde kleur als het achtergrond daarachter en heeft daarom geen fijn contrast.
+
+#### Wanneer kan dit een probleem zijn
+Als de gebruiker niet je site kan zien of elementen niet goed kunnen zien is het net alsof je gebruiker blind is, terwijl hij beperkt is met kleur. Het verschil is dat iemand die blind is nog hun text-to-speech aan staan. Daarom is het belangrijk dat je een goed contrast hebt binnen je pagina’s.
 
 # Opdracht 1.2 Browser Test
 
