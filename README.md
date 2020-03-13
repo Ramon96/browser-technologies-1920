@@ -1,116 +1,96 @@
-# Browser Technologies @cmda-minor-web 1920
-//Robuuste, toegankelijke websites ontwerpen en maken …
+# Browser Test
 
-In het vak Browser Technologies leer je hoe je goede, robuuste, toegankelijke websites maakt. Je gaat leren over Progressive Enhancement, Feature Detection en Fallback. Het web is er voor iedereen. In dit vak leer je hoe je daarvoor kan zorgen.
+## Safari apple iPod touch iOS 6.1.3
+Alles werkt behalve de filter.
+Dit kan ik fixen door de filter ook server sided afgehandeld te laten worden als javascript niet beschikbaar is.
 
-Een van de mooiste principes van het web is dat het er echt is voor iedereen. Iedereen met een computer en een browser moet gebruik kunnen maken van het web. Het web is geen gecontroleerde (programmeer) omgeving. Je kan er gerust van uit gaan dat niemand precies hetzelfde te zien krijgt als wat jij ziet in jouw browser. Er zijn natuurlijk de technische beperkingen. Zoals - Afmetingen van de browser - Grootte van het apparaat - Manier van interactie - Kwaliteit van de hardware - Kwaliteit van het netwerk. En er zijn mensen. Allemaal verschillende mensen ... Hoe zorg je er dan voor dat websites het altijd doen?
+## Ie11 nokia lumia 620 windows phone 8.1
+Alles werkt behalve de filter.
+Dit kan ik fixen door de filter ook server sided afgehandeld te laten worden als javascript niet beschikbaar is.
 
-## Leerdoelen
-- _Wat is Progressive enhancement en hoe kun je dit toepassen._
-- _Hoe doe je Feature Detection en wat doe je als een techniek niet werkt of wordt ondersteund._
-- _Leren een Browser Technologies onderzoeken, testen en implementeren als enhancement._
-
-[Rubric](https://docs.google.com/spreadsheets/d/1MV3BWwwg_Zz1n-S_qOM4iSm4gA4M6g0xAxGacyaPuac/edit?usp=sharing)
-
-## Planning
-
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| <a href=#week-1>Week 1</a>  | Introductie, College over Progressive enhancement + briefing opdracht 1.1 | College Browser detect + presentaties opdracht 1.1 + briefing opdracht 1.2 Fork je OBA  | Feedbackgesprekken + Bowlen! |
-| <a href=#week-2>Week 2</a>  | College Feature detect + Briefing opdracht 2  | College Browsers + werken aan de opdracht | Feedbackgesprekken  |
-| <a href=#week-3>Week 3</a>  | College Notificaties + werken aan de opdracht  |  Werken aan de opdracht | Beoordelingsgesprekken  |
+## Chrome 80 htc nexus 9 android 7.1.1
+Alles werkt naar behoren.
 
 
+## chrome 
+### Afbeeldingen uitzetten
+De site doet het prima zonder image’s
 
-## Programma
+### Custom fonts uitzetten
+Ik maak geen gebruik van custom font’s dus dit kan niet stuk gaan op de website.
 
-### Week 1
-Het web is voor iedereen. Leren over Progressive enhancement en kennismaken met testen en het device lab. [Planning week 1](./slides/Week1.png)
+### Kleur uitzetten en kleurenblindheid
+Ik heb checkmycolours.com gebruikt en de site geeft aan dat ik een goed contrast heb.
 
-#### Woensdag
-- [Les 1 - Progressive enhancement & Briefing Opdracht 1.1](./slides/BT1920%20College%20Les1%20-%20Progressive%20Enhancement.pdf)
-- [Opdracht 1.1 - Breek het web](Opdracht1.1.md)
+### een muis of trackpad
+Ik kan goed door de site navigeren zonder muis
 
-#### Weekly Nerd
-Sanne 't Hooft over Interactie. Woensdag 11 Maart, 16:00 in het minorlokaal.
+### Breedband internet uitzetten
+De site werkt nog wel, maar het zou wel een goede enhancement zijn als ik de user feedback zou geven dat er data opgehaald word.
 
-#### Donderdag
-- [Les 2 - Features testen & Briefing opdracht 1.2](./slides/BT1920%20College%20Les2%20-%20Progressive%20Enhancement.pdf)
-- [Opdracht 1.2 - Fork je OBA](Opdracht1.2.md)
+### Javascript uitzetten
+Alles doet het behalve de filters.
+Ik kan dit oplossen door de select een submit button te geven wanneer er geen client sidder javascript aanwezig is.
 
-Deze les gaan we onderstaand artikelen bespreken:
-- [Everyone has JavaScript, right? by Stuart Langridge](https://kryogenix.org/code/browser/everyonehasjs.html)
-- [The Web I Want by Chris James](https://dev.to/quii/the-web-i-want-43o)
+### Cookies niet accepteren
+Applicatie maakt Geen gebruik van cookies en gaat hier dus niet op stuk
+Localstorage uitzetten
+Applicatie maakt geen gebruik van de localstorage en gaat hier dus niet op stuk.
 
+## Safari 
 
-#### Vrijdag
-Feedbackgesprekken opdracht 1.2 n groepjes en studetnassistenten en docenten.
+### Afbeeldingen uitzetten
+De site doet het prima zonder image’s
 
-Deze les gaan we onderstaande artikel bespreken:
-- [Lezen: Understanding Progressive Enhancement by Aaron Gustafson](https://alistapart.com/article/understandingprogressiveenhancement)
+### Custom fonts uitzetten
+Ik maak geen gebruik van custom font’s 
 
+### Kleur uitzetten en kleurenblindheid
+Ik heb checkmycolours.com gebruikt en de site geeft aan dat ik een goed contrast heb.
 
+### Geen muis of trackpad
+In safari wil hij niet de a tags focussen. Daardoor kan niet helemaal goed door de pagina’s navigeren.
 
+### Breedband internet uitzetten
+De site werkt nog wel, maar het zou wel een goede enhancement zijn als ik de user feedback zou geven dat er data opgehaald word.
 
-
-### Week 2
-Wat laat je zien als een browser of gebruiker een 'enhancement' niet kan tonen of zien? Hoe doe je Feature Detection en wat doe je als een techniek niet werkt of wordt ondersteund? [Planning week 2](./slides/Week2.png)
-
-#### Woensdag
-- [Les 3 - Over Feature detect & Briefing opdracht 2]()
-- [Opdracht 2 - Progressive Enhanced Browser Technologie](Opdracht2.md)
-
-Deze les gaan we onderstaande artikelen bespreken:
-- [The Role of Enhancement in Web Design by Raluca Budiu / Nielsen Norman Group](https://www.nngroup.com/articles/enhancement/)
-- [Accessibility Through Semantic HTML by Laura Kalbag](https://24ways.org/2017/accessibility-through-semantic-html/)
-
-
-#### Weekly Nerd
-PE bij de Voorhoede.
-
-
-#### Donderdag
-- [Les 4 - Over Browsers]()
-
-Deze les gaan we onderstaande artikelen bespreken:
-- [The accessibility mindset by Eric Eggert](https://24ways.org/2015/the-accessibility-mindset/)
-- [HTML: The Inaccessible Parts](https://daverupert.com/2020/02/html-the-inaccessible-parts/)
+### Javascript uitzetten
+Alles doet het behalve de filters.
+Ik kan dit oplossen door de select een submit button te geven wanneer er geen client sidder javascript aanwezig is.
 
 
-#### Vrijdag
-Code review en feedbackgesprekken opdracht 2.
+### Cookies niet accepteren
+Applicatie maakt Geen gebruik van cookies en gaat hier dus niet op stuk
+Localstorage uitzetten
+Applicatie maakt geen gebruik van de localstorage en gaat hier dus niet op stuk.
+
+## Firefox 
+## Afbeeldingen uitzetten
+De site doet het prima zonder image’s
+
+### Custom fonts uitzetten
+Ik maak geen gebruik van custom font’s 
+
+### Kleur uitzetten en kleurenblindheid
+Ik heb checkmycolours.com gebruikt en de site geeft aan dat ik een goed contrast heb.
+
+### Geen muis of trackpad
+In firefox wil hij niet de a tags focussen. Daardoor kan niet helemaal goed door de pagina’s navigeren.
+Dit is een mac probleem zoals uitgelegd in dit articel.
+https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox/11713537
+
+### Breedband internet uitzetten
+De site werkt nog wel, maar het zou wel een goede enhancement zijn als ik de user feedback zou geven dat er data opgehaald word.
+
+### Javascript uitzetten
+Alles doet het behalve de filters.
+Ik kan dit oplossen door de select een submit button te geven wanneer er geen client sidder javascript aanwezig is.
 
 
-
-
-### Week 3
-Deze week werken we verder aan opdracht 2. [Planning week 3](./slides/Week3.png)
-
-
-#### Woensdag
-- [Les 5 - Over Notificaties]()
-
-Deze les gaan we onderstaande artikelen bespreken:
-- [Progressive Enhancement and Data Visualizations by Chris Coyier](https://css-tricks.com/progressive-enhancement-data-visualizations/)
-- [Make the Web Work For Everyone by Justin Crawford, Chris Mills, Ali Spivak](https://hacks.mozilla.org/2016/07/make-the-web-work-for-everyone/)
-
-
-#### Weekly Nerd
-Op bezoek bij Bol.com
-
-
-#### Donderdag
-Verder werken aan opdracht 2
-
-
-
-#### Vrijdag
-Code review en beoordelingsgesprekken opdracht 2.
-
-
-
-
-
+### cookies niet accepteren
+Applicatie maakt Geen gebruik van cookies en gaat hier dus niet op stuk
+Localstorage uitzetten
+Applicatie maakt geen gebruik van de localstorage en gaat hier dus niet op stuk.
 
 
 
