@@ -32,8 +32,12 @@ De rede dat iemand geen javascript hoeft niet te zijn omdat deze persoon zijn ja
 
 Dit zijn vragen die je in gedachte moet nemen want de kans is dat als een van deze dingen niet het geval is, javascript het niet doet en misschien je website dus ook niet..
 
+## The web I want
+Met javascript kan je een hoop coole dingen. Maar dit kan een enorme tol vragen van browser en de devices van je gebruiker. 
+Teveel javascript kan de gebruiker meer data kosten en het kost meer onderhoud om het werkend te houden op alle devices. 
 
 
+Wat belangrijk is om weg te nemen van dit artikel is dat een website bedoelt is om content af te leveren aan de gebruiker, en daar bestaat al iets handigs voor namelijk: HTML!. Gebruik dat dan ook. En er bestaan ook al iets heel mooois om je website mooi te houden, namelijk CSS. Je website kan namelijk alles al zonder javascript. Het is niet perse slecht om javascript te gebruiken maar gebruik dat dan ook echt om de usability verder te verbeteren. Want als javascript niet doet kan dat gewoon beteken dat gebruikers jou website helemaal niet zouden kunnen gebruiken en dat zou zonde zijn.
 
 
 # Opdracht 1.1 
