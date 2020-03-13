@@ -17,7 +17,7 @@
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
 
 
-# Browser Test
+# Opdracht 1.2 Browser Test
 
 Ik heb recent de browser test uitgevoerd. Ik ben erg tevreden met het resultaat. De test was vrij positief. Wat me mij opviel is dat wanneer javascript uit staat het filteren niet meer mogelijk is. Dit kan ik gelukkig gemakkelijk oplossen door de filter methode server sided af te laten handelen wanneer javascript niet beschikbaar is.
 
