@@ -1,0 +1,40 @@
+{
+  "name": "bt",
+  "version": "1.0.0",
+  "description": "pwa to design your t-shirt. very accesiable",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramon96/browser-technologies-1920.git"
+  },
+  "keywords": [
+    "design",
+    "tshirt",
+    "pwa",
+    "browser",
+    "technoligies"
+  ],
+  "author": "Ramon Meijers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ramon96/browser-technologies-1920/issues"
+  },
+  "homepage": "https://github.com/Ramon96/browser-technologies-1920#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "express-handlebars": "^3.1.0",
+    "hbs": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
