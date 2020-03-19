@@ -5,17 +5,24 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
+
 var hbs = require('express-handlebars');
 
 var indexRouter = require('./routes/index');
+var designRouter = require('./routes/design');
+var finalRouter = require('./routes/final');
 
 
 var app = express();
 
 // view engine setup
-app.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'layout', layoutsDir: __dirname + '/views/layouts'}));
+
+
+app.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'layout', layoutsDir: __dirname + '/views/layouts', helpers: require('./config/handlebars-helpers')}));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+
+
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -27,6 +34,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use(indexRouter);
+app.use(designRouter);
+app.use(finalRouter);
 
 
 // catch 404 and forward to error handler

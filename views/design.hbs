@@ -1,0 +1,45 @@
+<h1 contenteditable="true">{{title}}</h1>
+{{!-- T-shirt preview --}}
+
+<form action="/final" method="GET">
+    <fieldset>
+        <legend>Design form</legend>
+        <img src="/images/shirt.png" alt="Shirt preview">
+        <span><p>text</p></span>
+        <br>
+
+        <label>Shirt text
+            <input type="text" required name="shirttext" value={{res.shirttext}}>
+        </label><br>
+
+        <label> Small
+            <input type="radio" required name="size" id="small" value="small" {{#ifeq res.size 'small'}} checked="checked" {{/ifeq}} >
+        </label><br>
+
+        <label> Medium
+            <input type="radio" name="size" id="medium" value="medium" {{#ifeq res.size 'medium'}} checked="checked" {{/ifeq}}>
+        </label><br>
+        <label> Large
+            <input type="radio" name="size" id="large" value="large" {{#ifeq res.size 'large'}} checked="checked" {{/ifeq}}>
+        </label><br>
+        <label> Extra Large
+            <input type="radio" name="size" id="xl" value="xl" {{#ifeq res.size 'xl'}} checked="checked" {{/ifeq}}>
+        </label><br>
+
+        <br><br>
+
+        <label> Red
+            <input required type="radio" name="color" id="red" value="red" {{#ifeq res.color 'red'}} checked="checked" {{/ifeq}}>
+        </label><br>
+        <label> Blue
+            <input type="radio" name="color" id="blue" value="blue" {{#ifeq res.color 'blue'}} checked="checked" {{/ifeq}}>
+        </label><br>
+        <label> Black
+            <input type="radio" name="color" id="black" value="black" {{#ifeq res.color 'black'}} checked="checked" {{/ifeq}}>
+        </label><br>
+
+        <button formnovalidate type="submit" name="state" value="save">save</button>
+        <button type="submit">ga verder</button>
+    </fieldset>
+
+</form>
