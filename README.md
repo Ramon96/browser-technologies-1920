@@ -37,10 +37,10 @@ and you should be able to see the website on your localhost (port 3000 by defaul
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
 
 ## Sources
-[caniuse](https://caniuse.com/)
-[check my color](https://www.checkmycolours.com/)
-[toggle javascript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo?hl=nl)
-[color blinding](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa)
+[caniuse](https://caniuse.com/)/
+[check my color](https://www.checkmycolours.com/)/
+[toggle javascript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo?hl=nl)/
+[color blinding](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa)/
 
 ## License
 This project makes use of the [MIT](https://github.com/Ramon96/browser-technologies-1920/blob/master/LICENSE) license
