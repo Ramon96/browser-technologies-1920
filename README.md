@@ -62,6 +62,16 @@ It doesn't look nice, but it works. You will be able to design a shirt, and save
 ### Audits
 ![functional audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditsfunctional.png?raw=true)
 
+## Useable
+Lets make the site a bit more useable just by adding some basic css. 
+Now users will actually understand what they are looking at
+
+![useable](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/designcss.png?raw=true)
+Thats already better to look at
+
+### Audits
+![useable audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditscss.png?raw=true)
+
 ## Wishlist
 
 
