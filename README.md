@@ -51,9 +51,11 @@ With the shirt designer you can design your own shirt and save it for later cust
  </details>
 
 ## Functional and reliable
-This is how the site works without css and javascript 
+This is how the site works without css and javascript\
+
 ![functional screen1](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/functional1.png?raw=true)
 ![functional screen2](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/functional2.png?raw=true)
+
 
 It doesn't look nice, but it works. You will be able to design a shirt, and save it for later use. Its not clean but it gets the job done. the core functionality still stands and works :)
 
