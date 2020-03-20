@@ -13,7 +13,7 @@ The goal of this project to workout a Use case that works in most browsers and i
 ## Wireframes
 <details>
   <summary>0 state & returning visitor </summary>
-    ![schermen1](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm1.jpg?raw=true)
+    <img src="https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm1.jpg?raw=true" alt="schermen1">
  </details>
  
  <details>
