@@ -84,12 +84,19 @@ Thats already better to look at
 
 ## Sources
 Can I use to see in what browsers things are supported
-[caniuse](https://caniuse.com/)\ 
+
+[caniuse](https://caniuse.com/)
+
 check my colors to see if my contrast is alright (audits help with that too)
-[check my color](https://www.checkmycolours.com/)\
+
+[check my color](https://www.checkmycolours.com/)
+
 toggle javascript to turn on and off javascript easier
-[toggle javascript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo?hl=nl)\
+
+[toggle javascript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo?hl=nl)
+
 color blinding to simulate color blindness.
+
 [color blinding](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa)
 
 ## Exercises 
