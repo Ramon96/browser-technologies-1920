@@ -39,3 +39,4 @@ and you should be able to see the website on your localhost (port 3000 by defaul
 ## Sources
 
 ## License
+This project makes use of the [MIT](https://github.com/Ramon96/browser-technologies-1920/blob/master/LICENSE) license
