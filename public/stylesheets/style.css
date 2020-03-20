@@ -1,2 +1,138 @@
 html, body{ 
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1{
+
+}
+
+p{
+
+}
+
+button{
+    background: palevioletred;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    transition: opacity .4s;
+    border: none;
+    font-size: 1.2em;
+}
+
+a{
+    background: palevioletred;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    transition: opacity .4s;
+}
+
+a:hover{
+    opacity: .7;
+}
+
+a#home{
+    background: none;
+    color: black;
+    text-align: left;
+    padding-left: 15px;
+    display: block;
+    text-decoration: underline;
+}
+
+a#home:hover{
+    font-weight: bold;
+}
+
+form fieldset{
+    border: 0;
+}
+
+input[name=shirttext]{
+    display: block;
+    margin: auto;
+}
+
+input[name=size] {
+    opacity: 0;
+    position: absolute;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+label.size{
+    border: solid 1px black;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+input[name=size]:checked + label{
+    background: #db7093;
+    color: white;
+}
+
+input[name=color] {
+    opacity: 0;
+    position: absolute;
+}
+
+label.color{
+background: white;
+width: 45px;
+display: inline-block;
+border: solid 2px black;
+padding: 10px 0;
+color: black;
+
+}
+
+input[value=red] + label{
+    border-color: red;
+}
+input[value=blue] + label{
+    border-color: blue;
+}
+input[value=black] + label{
+    border-color: black;
+}
+
+input[name=color]:checked + label{
+    background: #db7093;
+    color: white;
+}
+
+span{
+    position: relative;
+    /* ik weet dat ik dan net zo goed een div kan gebruiken.. */
+    display: block;
+    width: 40%;
+    max-width: 500px;
+    margin: auto;
+    border: solid 1px black;
+}
+
+span img{
+    position: relative;
+    width: 100%;
+
+}
+
+span p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    word-break: break-all;
+    font-size: 2vw;
 }

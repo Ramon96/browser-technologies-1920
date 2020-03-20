@@ -10,6 +10,7 @@ var hbs = require('express-handlebars');
 
 var indexRouter = require('./routes/index');
 var designRouter = require('./routes/design');
+var saveRouter = require('./routes/save');
 var finalRouter = require('./routes/final');
 
 
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routes
 app.use(indexRouter);
 app.use(designRouter);
+app.use(saveRouter);
 app.use(finalRouter);
 
 
