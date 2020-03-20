@@ -10,6 +10,9 @@ click [here](https://bt-ramon.herokuapp.com/) to view the live demo
 ## Description
 The goal of this project to workout a Use case that works in most browsers and is very accessible. To do so we can build our project in  layers. Functional, Reliable and Usable and Pleasureable. I hope to learn alot about browser support and inclusive design during this project. 
 
+## Feature research 
+wip
+
 ## Wireframes
 <details>
   <summary>0 state & returning visitor </summary>
