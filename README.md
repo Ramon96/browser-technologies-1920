@@ -13,21 +13,6 @@ The goal of this project to workout a Use case that works in most browsers and i
 ## Table of contents
 wip
 
-## Wireframes
-<details>
-  <summary>0 state & returning visitor </summary>
-  
-  ![schermen1](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm1.jpg?raw=true)
-    
- </details>
- 
- <details>
-  <summary>Design page & print page</summary>
-  
-  ![schermen2](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm2.jpg?raw=true)
-  
- </details>
-
 ## Feature research 
 wip
 
@@ -47,8 +32,33 @@ once that is done you can start the project using
 
 and you should be able to see the website on your localhost (port 3000 by default) 
 
+## Shirt designer
+With the shirt designer you can design your own shirt and save it for later customization. To round it all up you will be able to print your design.
 
+## Wireframes
+<details>
+  <summary>0 state & returning visitor </summary>
+  
+  ![schermen1](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm1.jpg?raw=true)
+    
+ </details>
+ 
+ <details>
+  <summary>Design page & print page</summary>
+  
+  ![schermen2](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm2.jpg?raw=true)
+  
+ </details>
 
+## Functional and reliable
+This is how the site works without css and javascript 
+![functional screen1](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/functional1.png?raw=true)
+![functional screen2](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/functional2.png?raw=true)
+
+It doesn't look nice, but it works. You will be able to design a shirt, and save it for later use. Its not clean but it gets the job done. the core functionality still stands and works :)
+
+### Audits
+![functional audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditsfunctional.png?raw=true)
 
 ## Wishlist
 
