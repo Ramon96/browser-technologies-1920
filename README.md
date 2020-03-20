@@ -1,5 +1,12 @@
 # Browser Technologies 
 
+# Feedback 
+1. is de readme al goed opweg. zijn er punten die je nog wilt zien? ik heb nu inderdaad wat lege kopjes in me readme staan, die wil ik aanvullen zodra het product af is.
+
+2. Zou je naar mijn live demo willen kijken? is dit prima voor een functional en usable layer? 
+
+3. Ik zit nog een beetje te worstelen met de tekst op het tshirt en het kleuren van de tshirt. in de ideale wereld los ik dat op met javascript wanneer de gebruiker hier toegang tot heeft, als dat niet het geval is laat ik het liefst een wit shirt zien met een dummy text erop. Zou dit prima zijn?
+
 ## Custom t-shirt designer
 ![customshirt](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/frontscreen.png?raw=true)
 
