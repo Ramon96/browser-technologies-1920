@@ -43,7 +43,7 @@ and you should be able to see the website on your localhost (port 3000 by defaul
 [color blinding](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa)
 
 ## Exercises 
-[Artikel](https://github.com/Ramon96/browser-technologies-1920/wiki/Artikelen)\
+[Articles](https://github.com/Ramon96/browser-technologies-1920/wiki/Artikelen)\
 [opdracht 1.1](https://github.com/Ramon96/browser-technologies-1920/wiki/Opdracht-1.1)\
 [opdracht 1.2](https://github.com/Ramon96/browser-technologies-1920/wiki/Opdracht-1.2-Browser-Test)
 
