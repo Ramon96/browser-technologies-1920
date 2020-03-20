@@ -18,7 +18,7 @@ The goal of this project to workout a Use case that works in most browsers and i
  
  <details>
   <summary>Design page & print page</summary>
-  ![schermen2](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm2.jpg?raw=true)
+  <img src="https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/scherm2.jpg?raw=true" alt="schermen2>
  </details>
 
 <!-- Maybe a table of contents here? 📚 -->
