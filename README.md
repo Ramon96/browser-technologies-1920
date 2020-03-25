@@ -1,5 +1,12 @@
 # Browser Technologies 
 
+# Feedback 
+1. is de readme al goed opweg. zijn er punten die je nog wilt zien? ik heb nu inderdaad wat lege kopjes in me readme staan, die wil ik aanvullen zodra het product af is.
+
+2. Zou je naar mijn live demo willen kijken? is dit prima voor een functional en usable layer? 
+
+3. Ik zit nog een beetje te worstelen met de tekst op het tshirt en het kleuren van de tshirt. in de ideale wereld los ik dat op met javascript wanneer de gebruiker hier toegang tot heeft, als dat niet het geval is laat ik het liefst een wit shirt zien met een dummy text erop. Zou dit prima zijn?
+
 ## Custom t-shirt designer
 ![customshirt](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/frontscreen.png?raw=true)
 
@@ -62,13 +69,34 @@ It doesn't look nice, but it works. You will be able to design a shirt, and save
 ### Audits
 ![functional audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditsfunctional.png?raw=true)
 
+## Useable
+Lets make the site a bit more useable just by adding some basic css. 
+Now users will actually understand what they are looking at
+
+![useable](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/designcss.png?raw=true)\
+Thats already better to look at
+
+### Audits
+![useable audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditscss.png?raw=true)
+
 ## Wishlist
 
 
 ## Sources
-[caniuse](https://caniuse.com/)\
-[check my color](https://www.checkmycolours.com/)\
-[toggle javascript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo?hl=nl)\
+Can I use to see in what browsers things are supported
+
+[caniuse](https://caniuse.com/)
+
+check my colors to see if my contrast is alright (audits help with that too)
+
+[check my color](https://www.checkmycolours.com/)
+
+toggle javascript to turn on and off javascript easier
+
+[toggle javascript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo?hl=nl)
+
+color blinding to simulate color blindness.
+
 [color blinding](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa)
 
 ## Exercises 
