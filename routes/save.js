@@ -7,9 +7,7 @@ router.get('/save', function (req, res, next) {
     let design = fullUrl.replace("save", 'design')
 
 
-        res.render('save', {title: "Save design", url: design})
-
-
+    res.render('save', {title: "Save design", url: design})
 });
 
 

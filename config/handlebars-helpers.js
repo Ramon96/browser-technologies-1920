@@ -7,5 +7,8 @@ module.exports = {
     },
     bar: function(){
       return "BAR!";
+    },
+    capitalize: function(string){
+      return string.toUpperCase();
     }
   }

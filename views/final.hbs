@@ -2,13 +2,14 @@
 
 <p>Final results</p>
 
-        <span id="shirt"><img src="/images/shirt.png" alt="a {{res.color}} shirt containing the text: {{res.shirttext}} in the size {{res.size}} ">
-            <p>{{{res.shirttext}}}</p>
-        </span>
-<br>
+<span id="shirt"><img src="/images/shirt{{#capitalize res.color}}{{/capitalize}}.png"
+        alt="a {{res.color}} shirt containing the text: {{res.shirttext}} in the size {{res.size}} ">
+    <p>{{{res.shirttext}}}</p>
+</span>
+
 <p>Size: {{res.size}}</p>
 <p>Color: {{res.color}}</p>
-<br>
+
 
 <a href="{{url}}">Edit</a>
 <button>Confirm</button>

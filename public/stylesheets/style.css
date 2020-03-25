@@ -1,18 +1,15 @@
-html, body{ 
+html,
+body {
     margin: 0;
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
 }
 
-h1{
+h1 {}
 
-}
+p {}
 
-p{
-
-}
-
-button{
+button {
     background: #3f51b5;
     color: white;
     text-decoration: none;
@@ -23,7 +20,7 @@ button{
     font-size: 1.2em;
 }
 
-a{
+a {
     background: #3f51b5;
     color: white;
     text-decoration: none;
@@ -32,28 +29,36 @@ a{
     transition: opacity .4s;
 }
 
-a:hover{
+a:hover {
     opacity: .7;
 }
 
-a#home{
+a#home {
     background: none;
     color: black;
     text-align: left;
     padding-left: 15px;
-    display: block;
+    display: inline-block;
     text-decoration: underline;
+    margin-right: auto;
 }
 
-a#home:hover{
+a#home:hover {
     font-weight: bold;
 }
 
-form fieldset{
+form div {
+    max-width: 500px;
+    padding: 10px 0;
+    display: block;
+    margin: auto;
+}
+
+form fieldset {
     border: 0;
 }
 
-input[name=shirttext]{
+input[name=shirttext] {
     display: block;
     margin: auto;
 }
@@ -63,20 +68,27 @@ input[name=size] {
     position: absolute;
 }
 
-label:hover{
+label:hover {
     cursor: pointer;
 }
 
-label.size{
+label.size {
     border: solid 1px black;
     width: 20px;
     height: 20px;
     display: inline-block;
     padding: 5px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 
 }
 
-input[name=size]:checked + label{
+input[name=size]:checked+label {
     background: #3f51b5;
     color: white;
 }
@@ -86,17 +98,24 @@ input[name=color] {
     position: absolute;
 }
 
-label.color{
-background: white;
-width: 45px;
-display: inline-block;
-border: solid 2px black;
-padding: 10px 0;
-color: black;
-
+label.color {
+    background: white;
+    width: 90px;
+    display: inline-block;
+    border: solid 2px black;
+    padding: 15px 0;
+    color: black;
+    margin: 5px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 
-input[value=red] + label{
+/* input[value=red] + label{
     border-color: red;
 }
 input[value=blue] + label{
@@ -104,14 +123,14 @@ input[value=blue] + label{
 }
 input[value=black] + label{
     border-color: black;
-}
+} */
 
-input[name=color]:checked + label{
+input[name=color]:checked+label {
     background: #3f51b5;
     color: white;
 }
 
-span{
+span {
     position: relative;
     /* ik weet dat ik dan net zo goed een div kan gebruiken.. */
     display: block;
@@ -121,18 +140,17 @@ span{
     border: solid 1px black;
 }
 
-span img{
+span img {
     position: relative;
     width: 100%;
-
+    height: auto;
 }
 
-span p{
+span p {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-    word-break: break-all;
     font-size: 2vw;
 }

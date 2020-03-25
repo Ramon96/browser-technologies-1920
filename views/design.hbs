@@ -1,18 +1,14 @@
 <h1 contenteditable="true">{{title}}</h1>
 {{!-- T-shirt preview --}}
 
-<form method="GET">
+        <span id="shirt"><img id="previewimage"src="/images/shirtWhite.png" alt="Shirt preview" width="400" height="400">
+            <p id="previewtext">My chosen text</p>
+        </span>
+<form id="shirtdesign" method="GET">
     <fieldset>
         <legend>Just go with it.</legend>
-        <span id="shirt"><img src="/images/shirt.png" alt="Shirt preview">
-            <p>text</p>
-        </span>
-        <br>
-
-        <label for="shirttext">Shirt text</label><br>
+        <label for="shirttext">Shirt text</label>
         <input type="text" id="shirttext" required name="shirttext" value={{res.shirttext}}>
-        <br>
-
         <div>
             <input type="radio" required name="size" id="small" value="small" {{#ifeq res.size 'small'}}
                 checked="checked" {{/ifeq}}>
@@ -30,21 +26,44 @@
             <label class="size" for="xl"> XL</label>
 
         </div>
-        <br>
         <div>
-            <input required type="radio" name="color" id="red" value="red" {{#ifeq res.color 'red'}} checked="checked"
+            <input type="radio" name="color" id="white" value="white" {{#ifeq res.color 'white'}} checked="checked"
                 {{/ifeq}}>
-            <label class="color" for="red"> Red</label>
-            <input type="radio" name="color" id="blue" value="blue" {{#ifeq res.color 'blue'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="blue">Blue</label>
+            <label class="color" for="white"> White</label>
+
             <input type="radio" name="color" id="black" value="black" {{#ifeq res.color 'black'}} checked="checked"
                 {{/ifeq}}>
             <label class="color" for="black"> Black</label>
+            
+            <input required type="radio" name="color" id="red" value="red" {{#ifeq res.color 'red'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="red"> Red</label>
+
+            <input type="radio" name="color" id="blue" value="blue" {{#ifeq res.color 'blue'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="blue">Blue</label>
+
+            <input type="radio" name="color" id="green" value="green" {{#ifeq res.color 'green'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="green">Green</label>
+
+            <input type="radio" name="color" id="orange" value="orange" {{#ifeq res.color 'orange'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="orange">Orange</label>
+
+            <input type="radio" name="color" id="pink" value="pink" {{#ifeq res.color 'pink'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="pink">Pink</label>
+
+            <input type="radio" name="color" id="turquoise" value="turquoise" {{#ifeq res.color 'turquoise'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="turquoise">Turquoise</label>
+
+            <input type="radio" name="color" id="yellow" value="yellow" {{#ifeq res.color 'yellow'}} checked="checked"
+                {{/ifeq}}>
+            <label class="color" for="yellow">Yellow</label>
+
         </div>
-
-        <br>
-
         <button formnovalidate formaction="/save" type="submit" name="state" value="save">save</button>
         <button formaction="/final" type="submit">ga verder</button>
     </fieldset>
