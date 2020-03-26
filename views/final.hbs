@@ -1,15 +1,24 @@
 <h1>{{title}}</h1>
 
-<p>Final results</p>
+<h2>Final results</h2>
 
 <span id="shirt"><img src="/images/shirt{{#capitalize res.color}}{{/capitalize}}.png"
         alt="a {{res.color}} shirt containing the text: {{res.shirttext}} in the size {{res.size}} ">
-    <p>{{{res.shirttext}}}</p>
+    <p id="previewtext">{{{res.shirttext}}}</p>
 </span>
 
 <p>Size: {{res.size}}</p>
 <p>Color: {{res.color}}</p>
-
-
+<p>Text style: {{res.font}}</p>
+<p>Text color: {{res.fontcol}}</p>
 <a href="{{url}}">Edit</a>
-<button>Confirm</button>
+<button>Print design</button>
+
+<div>
+    <h3>Share this with your friends!</h3>
+    <input type="text" id='share' value="{{url}}">
+    <button id="copy">
+    <span id="tooltip">Copy to clipboard</span>
+        Share
+    </button>
+</div>

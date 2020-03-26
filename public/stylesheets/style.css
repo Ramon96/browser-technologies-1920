@@ -20,6 +20,7 @@ button {
     font-size: 1.2em;
 }
 
+
 a {
     background: #3f51b5;
     color: white;
@@ -56,6 +57,9 @@ form div {
 
 form fieldset {
     border: 0;
+}
+#previewtext{
+    font-family: Georgia, serif;
 }
 
 input[name=shirttext] {
@@ -153,4 +157,48 @@ span p {
     transform: translate(-50%, -50%);
     width: 40%;
     font-size: 2vw;
+    word-break: break-word;
 }
+
+.hide{
+    display: none;
+}
+
+button#copy {
+    position: relative;
+    display: inline-block;
+
+}
+button#copy #tooltip{
+    visibility: hidden;
+    width: 140px;
+    background-color: #8500ff;
+    border: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  button#copy #tooltip::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #8500ff transparent transparent transparent;
+  }
+
+  button#copy:hover #tooltip{
+    visibility: visible;
+    opacity: 1;
+  }

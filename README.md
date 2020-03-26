@@ -107,3 +107,12 @@ color blinding to simulate color blindness.
 
 ## License
 This project makes use of the [MIT](https://github.com/Ramon96/browser-technologies-1920/blob/master/LICENSE) license
+
+
+
+
+
+
+
+
+https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/   
