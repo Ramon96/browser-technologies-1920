@@ -123,8 +123,6 @@ if (storageAvailable('localStorage')) {
     }
 } else {
     console.warn('The user has disabled their localstorage')
-
-  
 }
 
 function storageAvailable(type) {

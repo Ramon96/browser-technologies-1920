@@ -9,6 +9,7 @@ module.exports = {
       return "BAR!";
     },
     capitalize: function(string){
-      return string.toUpperCase();
+      if (typeof string !== 'string') return ''
+      return string.charAt(0).toUpperCase() + string.slice(1)
     }
   }
