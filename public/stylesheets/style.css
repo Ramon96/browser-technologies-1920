@@ -269,7 +269,7 @@ section img {
 
 section p {
     position: absolute;
-    top: 30%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
@@ -346,13 +346,13 @@ main{
 
 
 aside#intro{
-    margin-bottom: 3em;
+    padding-bottom: 3em;
+    max-width: 70%;
+    text-align: left;
+    margin: auto;
 }
 
 aside#intro p{
-    text-align: left;
-    max-width: 70%;
-    margin: auto;
     font-size: 1.2em;
     margin-bottom: 2em;
 }
@@ -490,10 +490,6 @@ main#introMain div{
     aside,
     main {
         float: left;
-    }
-
-    aside#intro{
-        margin-bottom: inherit;
     }
 
     #wrapper{
