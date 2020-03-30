@@ -234,7 +234,7 @@ input[name=fontcol]{
 
 
 input:checked+label{
-    border: solid 2px #282828;
+    border: solid 2px #595959;
 }
 
 label.fontcol{
