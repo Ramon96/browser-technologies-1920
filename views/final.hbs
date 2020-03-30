@@ -2,26 +2,27 @@
 
 <div id="wrapper">
 
-<aside>
-    <h2>Preview</h2>
-<section id="shirt"><img src="/images/shirt{{#capitalize res.color}}{{/capitalize}}.png"
-        alt="a {{res.color}} shirt containing the text: {{res.shirttext}} in the size {{res.size}} ">
-    <p id="previewtext">{{{res.shirttext}}}</p>
-</section>
-</aside>
+    <aside>
 
-<main>
-<h2>Final results</h2>
-<p>Size: {{res.size}}</p>
-<p>Color: {{res.color}}</p>
-<p>Text style: {{res.font}}</p>
-<p>Text color: {{res.fontcol}}</p>
-<a id="edit" href="{{url}}">Edit</a>
-{{!-- <button id="print">Print</button> --}}
+        <section id="shirt">
+            <h2>Preview</h2><img src="/images/shirt{{#capitalize res.color}}{{/capitalize}}.png"
+                alt="a {{res.color}} shirt containing the text: {{res.shirttext}} in the size {{res.size}} ">
+            <p id="previewtext">{{{res.shirttext}}}</p>
+        </section>
+    </aside>
 
-<div>
-    <h3>Share this with your friends!</h3>
-    <input type="text" id='share' value="{{url}}">
-</div>
-</main>
+    <main>
+        <h2>Final results</h2>
+        <p>Size: {{res.size}}</p>
+        <p>Color: {{res.color}}</p>
+        <p>Text style: {{res.font}}</p>
+        <p>Text color: {{res.fontcol}}</p>
+        <a id="edit" href="{{url}}">Edit</a>
+        {{!-- <button id="print">Print</button> --}}
+
+        <div>
+            <h3>Share this with your friends!</h3>
+            <input type="text" id='share' value="{{url}}">
+        </div>
+    </main>
 </div>
