@@ -178,6 +178,9 @@ input[name=color] {
     /* opacity: 0;
     position: absolute; */
     display: none;
+    display: block;
+    position: absolute;
+    opacity: 0;
 }
 
 label.color{
@@ -219,7 +222,9 @@ input[value=pink]+label.color{
 
 
 input[name=fontcol]{
-    display: none;
+    display: block;
+    position: absolute;
+    opacity: 0;
 }
 
 
@@ -420,6 +425,10 @@ main#introMain div{
 #player{
     background: green;
 
+}
+
+#previewtext{
+    color: black;
 }
 
 
