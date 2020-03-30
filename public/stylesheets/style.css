@@ -38,15 +38,21 @@ h1{
 
 
 button {
-    background: #3f51b5;
+    background: #282828;
     color: white;
     text-decoration: none;
     border-radius: 25px;
     padding: 5px 20px;
     transition: opacity .4s;
     border: none;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 
@@ -57,7 +63,9 @@ a {
     border-radius: 25px;
     padding: 5px 20px;
     transition: opacity .4s;
-    font-size: 1.2em;
+    font-size: 1em;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
     position: relative;
 }
 
@@ -68,18 +76,20 @@ a:hover {
     opacity: .7;
 }
 
-a#home {
+nav a {
     background: none;
-    color: black;
+    color: #282828;
     display: block;
-    text-decoration: underline;
     padding:  15px 0;
     padding-left: 15px;
     margin-right: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: opacity .3s;
 }
 
-a#home:hover {
-    font-weight: bold;
+nav a:hover {
+    opacity: .4;
 }
 
 legend{ 
@@ -134,14 +144,15 @@ label:hover {
 }
 
 label.size {
-    border: solid 1px black;
-    background: white;
+    border: solid 2px #fff;
+    background: #fff;
     border-radius: 50%;
-    color: black;
+    color: #282828;
     width: 20px;
     height: 20px;
     display: inline-block;
     padding: 5px;
+    font-weight: bold;
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -159,7 +170,7 @@ label.size {
 }
 
 input[name=size]:checked+label {
-    background: #3f51b5;
+    background: #282828;
     color: white;
 }
 
@@ -174,7 +185,7 @@ label.color{
     height: 20px;
     border-radius: 50%;
     display: inline-block;
-    border: solid 2px #202020
+    border: solid 2px #595959
 }
 
 input[value=black]+label.color{
@@ -213,7 +224,7 @@ input[name=fontcol]{
 
 
 input:checked+label{
-    border: solid 2px #3f51b5;
+    border: solid 2px #282828;
 }
 
 label.fontcol{
@@ -221,7 +232,7 @@ label.fontcol{
     height: 20px;
     border-radius: 50%;
     display: inline-block;
-    border: solid 2px #202020
+    border: solid 2px #595959
 }
 
 
@@ -269,7 +280,7 @@ button#copy {
 button#copy #tooltip {
     visibility: hidden;
     width: 140px;
-    background-color: #8500ff;
+    background-color: #282828;
     border: none;
     color: #fff;
     text-align: center;
@@ -292,7 +303,7 @@ button#copy #tooltip::after {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #8500ff transparent transparent transparent;
+    border-color: #282828 transparent transparent transparent;
 }
 
 button#copy:hover #tooltip {
@@ -301,9 +312,9 @@ button#copy:hover #tooltip {
 }
 
 main{
-    background: #202020;
+    background: #595959;
     border-radius: 15px;
-    /* box-shadow: #0000002e 8px 10px 12px 3px; */
+    box-shadow: #00000061 7px 8px 15px;
     color: white;
 }
 
@@ -321,6 +332,11 @@ main section {
 
 main{
     padding-bottom: 2em;
+}
+
+
+aside#intro{
+    margin-bottom: 3em;
 }
 
 aside#intro p{
@@ -406,9 +422,6 @@ main#introMain div{
 
 }
 
-#wrapper{
-    display: flex;
-}
 
  @supports (display: grid) {
     main#introMain {
@@ -459,14 +472,20 @@ main#introMain div{
   } 
 
 @media only screen and (min-width: 768px) {
+
     aside,
     main {
         float: left;
     }
 
+    aside#intro{
+        margin-bottom: inherit;
+    }
+
     #wrapper{
         max-width: 75%;
         margin: auto;
+        display: flex;
     }
     
 }
