@@ -114,5 +114,9 @@ This project makes use of the [MIT](https://github.com/Ramon96/browser-technolog
 
 
 
-
+// waarom color picker een slecht idee is
 https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/   
+
+
+// focusable labels
+https://stackoverflow.com/questions/27550415/tabindex-doesnt-make-a-label-focusable-using-tab-key

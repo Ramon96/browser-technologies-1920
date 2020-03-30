@@ -1,109 +1,106 @@
-<h1 contenteditable="true">{{title}}</h1>
+<h1>{{title}}</h1>
 {{!-- T-shirt preview --}}
+<div id="wrapper">
+<aside>
+    <section id="shirt"><img id="previewimage" src="/images/shirtWhite.png" alt="Shirt preview" width="400"
+            height="400">
+        <p id="previewtext">My chosen text</p>
+    </section>
+</aside>
+<main>
+    <section>
+        <form id="shirtdesign" method="GET">
+            <fieldset>
+                <label for="shirttext">
+                    <legend>Shirt text</legend>
+                </label>
+                <input type="text" id="shirttext" required name="shirttext" value={{res.shirttext}}>
+            </fieldset>
+            <fieldset>
+                <legend>Size</legend>
+                <input type="radio" required name="size" id="small" value="small" {{#ifeq res.size 'small'}}
+                    checked="checked" {{/ifeq}}>
+                <label class="size" for="small"> S </label>
 
-<span id="shirt"><img id="previewimage" src="/images/shirtWhite.png" alt="Shirt preview" width="400" height="400">
-    <p id="previewtext">My chosen text</p>
-</span>
-<form id="shirtdesign" method="GET">
-    <fieldset>
-        <legend>Just go with it.</legend>
-        <label for="shirttext">
-            <h2>Shirt text</h2>
-        </label>
-        <input type="text" id="shirttext" required name="shirttext" value={{res.shirttext}}>
-        <h2>Size</h2>
-        <div>
-            <input type="radio" required name="size" id="small" value="small" {{#ifeq res.size 'small'}}
-                checked="checked" {{/ifeq}}>
-            <label class="size" for="small"> S </label>
+                <input type="radio" name="size" id="medium" value="medium" {{#ifeq res.size 'medium'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="size" for="medium"> M </label>
 
-            <input type="radio" name="size" id="medium" value="medium" {{#ifeq res.size 'medium'}} checked="checked"
-                {{/ifeq}}>
-            <label class="size" for="medium"> M </label>
+                <input type="radio" name="size" id="large" value="large" {{#ifeq res.size 'large'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="size" for="large"> L</label>
 
-            <input type="radio" name="size" id="large" value="large" {{#ifeq res.size 'large'}} checked="checked"
-                {{/ifeq}}>
-            <label class="size" for="large"> L</label>
+                <input type="radio" name="size" id="xl" value="xl" {{#ifeq res.size 'xl'}} checked="checked" {{/ifeq}}>
+                <label class="size" for="xl"> XL</label>
+            </fieldset>
+            <fieldset>
+                <legend>Shirt Color</legend>
+                <input type="radio" name="color" id="white" value="white" {{#ifeq res.color 'white'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="color" for="white"> White</label>
 
-            <input type="radio" name="size" id="xl" value="xl" {{#ifeq res.size 'xl'}} checked="checked" {{/ifeq}}>
-            <label class="size" for="xl"> XL</label>
+                <input type="radio" name="color" id="black" value="black" {{#ifeq res.color 'black'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="color" for="black"> Black</label>
 
-        </div>
-        <h2>Shirt Color</h2>
-        <div>
-            <input type="radio" name="color" id="white" value="white" {{#ifeq res.color 'white'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="white"> White</label>
+                <input required type="radio" name="color" id="red" value="red" {{#ifeq res.color 'red'}}
+                    checked="checked" {{/ifeq}}>
+                <label class="color" for="red"> Red</label>
 
-            <input type="radio" name="color" id="black" value="black" {{#ifeq res.color 'black'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="black"> Black</label>
+                <input type="radio" name="color" id="blue" value="blue" {{#ifeq res.color 'blue'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="color" for="blue">Blue</label>
 
-            <input required type="radio" name="color" id="red" value="red" {{#ifeq res.color 'red'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="red"> Red</label>
+                <input type="radio" name="color" id="green" value="green" {{#ifeq res.color 'green'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="color" for="green">Green</label>
 
-            <input type="radio" name="color" id="blue" value="blue" {{#ifeq res.color 'blue'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="blue">Blue</label>
+                <input type="radio" name="color" id="orange" value="orange" {{#ifeq res.color 'orange'}}
+                    checked="checked" {{/ifeq}}>
+                <label class="color" for="orange">Orange</label>
 
-            <input type="radio" name="color" id="green" value="green" {{#ifeq res.color 'green'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="green">Green</label>
+                <input type="radio" name="color" id="pink" value="pink" {{#ifeq res.color 'pink'}} checked="checked"
+                    {{/ifeq}}>
+                <label class="color" for="pink">Pink</label>
 
-            <input type="radio" name="color" id="orange" value="orange" {{#ifeq res.color 'orange'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="orange">Orange</label>
+                <input type="radio" name="color" id="turquoise" value="turquoise" {{#ifeq res.color 'turquoise'}}
+                    checked="checked" {{/ifeq}}>
+                <label class="color" for="turquoise">Turquoise</label>
 
-            <input type="radio" name="color" id="pink" value="pink" {{#ifeq res.color 'pink'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="pink">Pink</label>
+                <input type="radio" name="color" id="yellow" value="yellow" {{#ifeq res.color 'yellow'}}
+                    checked="checked" {{/ifeq}}>
+                <label class="color" for="yellow">Yellow</label>
+            </fieldset>
+            <fieldset>
+                <legend>Text style</legend>
 
-            <input type="radio" name="color" id="turquoise" value="turquoise" {{#ifeq res.color 'turquoise'}}
-                checked="checked" {{/ifeq}}>
-            <label class="color" for="turquoise">Turquoise</label>
+                <select value='font' id="font" name="font" id="font">
+                    <option value="" disabled selected>Choose your text style</option>
+                    <option  class="Sans" {{#ifeq res.font 'Sans'}} selected {{/ifeq}} value="Sans">Source Sans Pro</option>
+                    <option  class="Indie" {{#ifeq res.font 'Indie'}} selected {{/ifeq}} value="Indie">Indie Flower</option>
+                    <option  class="Code" {{#ifeq res.font 'Code'}} selected {{/ifeq}} value="Code">Source Code Pro</option>
+                    <option  class="Satisfy" {{#ifeq res.font 'Satisfy'}} selected {{/ifeq}} value="Satisfy">Satisfy</option>
+                    <option class="Spartan" {{#ifeq res.font 'Spartan'}} selected {{/ifeq}} value="Spartan">Spartan</option>
+                    <option class="Orbitron" {{#ifeq res.font 'Orbitron'}} selected {{/ifeq}} value="Orbitron">Orbitron</option>
+                    <option class="Poiret" {{#ifeq res.font 'Poiret'}} selected {{/ifeq}} value="Poiret">Poiret One</option>
+                    <option class="Start" {{#ifeq res.font 'Start'}} selected {{/ifeq}} value="Start">Press Start 2P</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Text color</legend>
+                <input type="radio" name="fontcol" id="blacktxt" value="black" checked="checked"
+                    {{#ifeq res.fontcol 'white'}} checked="unchecked" {{/ifeq}}>
+                <label class="fontcol" for="blacktxt">Black</label>
 
-            <input type="radio" name="color" id="yellow" value="yellow" {{#ifeq res.color 'yellow'}} checked="checked"
-                {{/ifeq}}>
-            <label class="color" for="yellow">Yellow</label>
+                <input type="radio" name="fontcol" id="whitetxt" value="white" {{#ifeq res.fontcol 'white'}}
+                    checked="checked" {{/ifeq}}>
+                <label class="fontcol" for="whitetxt">White</label>
+            </fieldset>
 
-        </div>
-        <h2>Text style</h2>
-        <div>
-            <select value='font' id="font" name="font" id="font" size="13">
-                <option {{#ifeq res.font 'Georgia'}} selected {{/ifeq}} value="Georgia">Georgia</option>
-                <option {{#ifeq res.font 'Palatino Linotype'}} selected {{/ifeq}} value="Palatino Linotype">Palatino
-                    Linotype</option>
-                <option {{#ifeq res.font 'Times New Roman'}} selected {{/ifeq}} value="Times New Roman">Times New Roman
-                </option>
-                <option {{#ifeq res.font 'Arial'}} selected {{/ifeq}} value="Arial">Arial</option>
-                <option {{#ifeq res.font 'Arial Black'}} selected {{/ifeq}} value="Arial Black">Arial Black</option>
-                <option {{#ifeq res.font 'Comic Sans MS'}} selected {{/ifeq}} value="Comic Sans MS">Comic Sans MS
-                </option>
-                <option {{#ifeq res.font 'Impact'}} selected {{/ifeq}} value="Impact">Impact</option>
-                <option {{#ifeq res.font 'Lucida Grande'}} selected {{/ifeq}} value="Lucida Grande">Lucida Grande
-                </option>
-                <option {{#ifeq res.font 'Tahoma'}} selected {{/ifeq}} value="Tahoma">Tahoma</option>
-                <option {{#ifeq res.font 'Verdana'}} selected {{/ifeq}} value="Verdana">Verdana</option>
-                <option {{#ifeq res.font 'Courier New'}} selected {{/ifeq}} value="Courier New">Courier New</option>
-                <option {{#ifeq res.font 'Verdana'}} selected {{/ifeq}} value="Verdana">Verdana</option>
-                <option {{#ifeq res.font 'Lucida Console'}} selected {{/ifeq}} value="Lucida Console">Lucida Console
-                </option>
-            </select>
-        </div>
-        <h2>Text color</h2>
-        <div>
-            <input type="radio" name="fontcol" id="blacktxt" value="black" checked="checked" {{#ifeq res.fontcol 'white'}}
-                checked="unchecked" {{/ifeq}} >
-            <label class="fontcol" for="blacktxt">Black</label>
+            <button id="save" formnovalidate formaction="/save" type="submit" name="state" value="save">save</button>
+            <button formaction="/final" type="submit">Next step</button>
 
-            <input type="radio" name="fontcol" id="whitetxt" value="white" {{#ifeq res.fontcol 'white'}} checked="checked"
-                {{/ifeq}}>
-            <label class="fontcol" for="whitetxt">White</label>
-        </div>
-        <button id="save" formnovalidate formaction="/save" type="submit" name="state" value="save">save</button>
-        <button formaction="/final" type="submit">Next step</button>
-
-    </fieldset>
-
-</form>
+        </form>
+    </section>
+</main>
+</div>

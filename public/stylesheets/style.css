@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Orbitron|Poiret+One|Press+Start+2P|Satisfy|Source+Code+Pro|Source+Sans+Pro|Spartan&display=swap');
 html,
 body {
     margin: 0;
     text-align: center;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Source Sans Pro', Geneva, sans-serif;
+    letter-spacing:  2px;
 }
 
-h1 {}
+h1 {
+    color: white;
+    background: #494949;
+    padding: 1em 0;
+    margin-top: 0;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    box-shadow: inset black 0px 0px 15px 0px;
+}
 
 p {}
 
@@ -18,6 +28,7 @@ button {
     transition: opacity .4s;
     border: none;
     font-size: 1.2em;
+    margin: 0 10px;
 }
 
 
@@ -28,7 +39,9 @@ a {
     border-radius: 25px;
     padding: 5px 20px;
     transition: opacity .4s;
+    font-size: 1.2em;
 }
+
 
 a:hover {
     opacity: .7;
@@ -37,18 +50,25 @@ a:hover {
 a#home {
     background: none;
     color: black;
-    text-align: left;
-    padding-left: 15px;
-    display: inline-block;
+    display: block;
     text-decoration: underline;
-    margin-right: auto;
+    padding:  15px 0;
+    padding-left: 15px;
+    margin-right: 100%;
 }
 
 a#home:hover {
     font-weight: bold;
 }
 
-form div {
+legend{ 
+    font-weight: bold;
+    /* ie fixes */
+    color: inherit;
+    margin: 0 auto;
+}
+
+form fieldset {
     max-width: 500px;
     padding: 10px 0;
     display: block;
@@ -58,13 +78,30 @@ form div {
 form fieldset {
     border: 0;
 }
-#previewtext{
-    font-family: Georgia, serif;
+
+/* Firefox is unable to center labels, I found this solution on Stack overflow */
+/* https://stackoverflow.com/questions/27124746/centering-legend-in-firefox */
+@media screen and (-moz-images-in-menus: 0) {
+    form fieldset {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    fieldset>legend {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+
+#previewtext {
+    letter-spacing: 0;
 }
 
 input[name=shirttext] {
     display: block;
     margin: auto;
+    border-radius: 15px;
 }
 
 input[name=size] {
@@ -78,16 +115,25 @@ label:hover {
 
 label.size {
     border: solid 1px black;
+    background: white;
+    border-radius: 50%;
+    color: black;
     width: 20px;
     height: 20px;
     display: inline-block;
     padding: 5px;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 
 }
@@ -110,47 +156,40 @@ label.color {
     padding: 15px 0;
     color: black;
     margin: 5px;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
-
-/* input[value=red] + label{
-    border-color: red;
-}
-input[value=blue] + label{
-    border-color: blue;
-}
-input[value=black] + label{
-    border-color: black;
-} */
 
 input[name=color]:checked+label {
     background: #3f51b5;
     color: white;
 }
 
-span {
+section#shirt {
     position: relative;
-    /* ik weet dat ik dan net zo goed een div kan gebruiken.. */
     display: block;
-    width: 40%;
     max-width: 500px;
     margin: auto;
-    border: solid 1px black;
 }
 
-span img {
+section img {
     position: relative;
     width: 100%;
     height: auto;
 }
 
-span p {
+section p {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -160,7 +199,7 @@ span p {
     word-break: break-word;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -169,7 +208,8 @@ button#copy {
     display: inline-block;
 
 }
-button#copy #tooltip{
+
+button#copy #tooltip {
     visibility: hidden;
     width: 140px;
     background-color: #8500ff;
@@ -185,9 +225,9 @@ button#copy #tooltip{
     margin-left: -75px;
     opacity: 0;
     transition: opacity 0.3s;
-  }
+}
 
-  button#copy #tooltip::after{
+button#copy #tooltip::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -196,9 +236,83 @@ button#copy #tooltip{
     border-width: 5px;
     border-style: solid;
     border-color: #8500ff transparent transparent transparent;
-  }
+}
 
-  button#copy:hover #tooltip{
+button#copy:hover #tooltip {
     visibility: visible;
     opacity: 1;
-  }
+}
+
+main{
+    background: #202020;
+    border-radius: 15px;
+    /* box-shadow: #0000002e 8px 10px 12px 3px; */
+    color: white;
+}
+
+
+aside,
+main {
+    width: 50%;
+    margin: auto;
+}
+
+aside section,
+main section {
+    padding: 20px;
+}
+
+main{
+    padding-bottom: 2em;
+}
+
+select{
+    border-radius: 15px;
+}
+
+/* fonts */
+
+.Sans{
+    font-family: 'Source Sans Pro', Geneva, sans-serif;
+}
+
+.Indie{
+    font-family: 'Indie Flower', cursive;
+}
+
+.Code{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Satisfy{
+    font-family: 'Satisfy', cursive;
+}
+
+.Spartan{
+    font-family: 'Spartan', sans-serif;
+}
+
+.Orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Poiret{
+    font-family: 'Poiret One', cursive;
+}
+
+.Start{
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media only screen and (min-width: 768px) {
+    aside,
+    main {
+        float: left;
+    }
+
+    #wrapper{
+        max-width: 75%;
+        margin: auto;
+    }
+    
+}
