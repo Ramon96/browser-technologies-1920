@@ -37,39 +37,39 @@
                 <legend>Shirt Color</legend>
                 <input type="radio" name="color" id="white" value="white" {{#ifeq res.color 'white'}} checked="checked"
                     {{/ifeq}}>
-                <label class="color" for="white"> White</label>
+                <label title="White" class="color" for="white"></label>
 
                 <input type="radio" name="color" id="black" value="black" {{#ifeq res.color 'black'}} checked="checked"
                     {{/ifeq}}>
-                <label class="color" for="black"> Black</label>
+                <label title="Black" class="color" for="black"></label>
 
                 <input required type="radio" name="color" id="red" value="red" {{#ifeq res.color 'red'}}
                     checked="checked" {{/ifeq}}>
-                <label class="color" for="red"> Red</label>
+                <label title="Red" class="color" for="red"></label>
 
                 <input type="radio" name="color" id="blue" value="blue" {{#ifeq res.color 'blue'}} checked="checked"
                     {{/ifeq}}>
-                <label class="color" for="blue">Blue</label>
+                <label title="Blue" class="color" for="blue"></label>
 
                 <input type="radio" name="color" id="green" value="green" {{#ifeq res.color 'green'}} checked="checked"
                     {{/ifeq}}>
-                <label class="color" for="green">Green</label>
+                <label title="Green" class="color" for="green"></label>
 
                 <input type="radio" name="color" id="orange" value="orange" {{#ifeq res.color 'orange'}}
                     checked="checked" {{/ifeq}}>
-                <label class="color" for="orange">Orange</label>
+                <label title="Orange" class="color" for="orange"></label>
 
                 <input type="radio" name="color" id="pink" value="pink" {{#ifeq res.color 'pink'}} checked="checked"
                     {{/ifeq}}>
-                <label class="color" for="pink">Pink</label>
+                <label title="Pink" class="color" for="pink"></label>
 
                 <input type="radio" name="color" id="turquoise" value="turquoise" {{#ifeq res.color 'turquoise'}}
                     checked="checked" {{/ifeq}}>
-                <label class="color" for="turquoise">Turquoise</label>
+                <label title="Turquoise" class="color" for="turquoise"></label>
 
                 <input type="radio" name="color" id="yellow" value="yellow" {{#ifeq res.color 'yellow'}}
                     checked="checked" {{/ifeq}}>
-                <label class="color" for="yellow">Yellow</label>
+                <label title="Yellow" class="color" for="yellow"></label>
             </fieldset>
             <fieldset>
                 <legend>Text style</legend>
@@ -90,11 +90,11 @@
                 <legend>Text color</legend>
                 <input type="radio" name="fontcol" id="blacktxt" value="black" checked="checked"
                     {{#ifeq res.fontcol 'white'}} checked="unchecked" {{/ifeq}}>
-                <label class="fontcol" for="blacktxt">Black</label>
+                <label title="Black" class="fontcol" for="blacktxt"></label>
 
                 <input type="radio" name="fontcol" id="whitetxt" value="white" {{#ifeq res.fontcol 'white'}}
                     checked="checked" {{/ifeq}}>
-                <label class="fontcol" for="whitetxt">White</label>
+                <label title="White" class="fontcol" for="whitetxt"></label>
             </fieldset>
 
             <button id="save" formnovalidate formaction="/save" type="submit" name="state" value="save">save</button>
