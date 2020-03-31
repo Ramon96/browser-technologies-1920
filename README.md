@@ -406,7 +406,63 @@ In order to make the website as accessable as possible I try to:
 
 - test the contrast. Some people are colorlbind and want to be able to use your site. thats why I check my audtis and online tools like color blinding to test if the site is useable for people with these kinds of dissabilities.
 
-- frequent testing. 
+- frequent testing.
+
+## Conclusion
+
+### What is Progressive enhancement.
+Progressive enhancement focuses on the content first. Its a strategy where you build your website/app in layers of presentation and features on top of the content as the users browser/internet allows to. 
+
+In core
+- basic content should be accessible to all browsers.
+- core functionality should be accessible to all browsers.
+- semantic markup contains all content.
+- enhanced the layout with css
+- enhanced the bahaviour with javascript
+- respect the settings of the users's browsers.
+
+Prime example would be this demo. It is build with the markup first.
+Then enhanced with styling with css. 
+And finally enhanced the bahaviour with javascript.
+
+### What is feature detection 
+Feature detection is working whether the browser supports a certain block of code and running different code when it doens't so that the browser always provides a working experience rather that the browsers crashes or shows errors.
+
+Example for this is the localstorage where I check if the localstorage is avaiable.
+`if (storageAvailable('localStorage'))`
+
+```javascript
+function storageAvailable(type) {
+  try {
+    var storage = window[type],
+        x = '__storage_test__';
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+```
+
+Inside the if statement I will be able to write logic when there is an local storage. And in the else I could write logic when there is no localstorage. 
+
+There are also some native feature detections like `@supports in css`
+
+```css
+ @supports (display: grid) 
+```
+
+but somethimes supports isn't supported and you should write a propper fallback.
+
+### In summaray
+I have learned alot from this subject. I didn't like this subject at first but the more I was working on this and improving my browser the more I started to like it. It gives you that feeling of "Wow my application is actually gonna work for everyone." It gives you a better sense of control and you know what you should exepct from certain excaptions. (You will know a screenreaders need to get its information from semantic markup)
+
+The most important takes are
+- What is the core functionality of your application what should work on all times.
+- What can I do to improve this functionality
+- Something is breaking on this browsers how can I detect this and how could I solve this differenlty?
+
 
 ## License
 This project makes use of the [MIT](https://github.com/Ramon96/browser-technologies-1920/blob/master/LICENSE) license
