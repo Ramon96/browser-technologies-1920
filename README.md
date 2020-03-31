@@ -12,7 +12,42 @@ For this project I chose the case of making your own custom t-shirt design. And 
 
 
 ## Table of contents
-wip
+- [Browser Tests](#browser-tests)
+- [Firefox 74.0 (desktop) Windows 10](#firefox-740--desktop--windows-10)
+- [Internet explorer 9 Windows 10](#internet-explorer-9-windows-10)
+- [Safari 13.0.5  Osx 10.15.3](#safari-1305--osx-10153)
+  * [Safari 13.3.1 (Mobile) Ios 13.3.1](#safari-1331--mobile--ios-1331)
+  * [Chrome 69 (mobile) android 8.0.0](#chrome-69--mobile--android-800)
+- [Feature research](#feature-research)
+  * [Image's are not working](#image-s-are-not-working)
+  * [Custom fonts are off](#custom-fonts-are-off)
+  * [Unable to use your mouse](#unable-to-use-your-mouse)
+  * [Internet is turned off (or slow)](#internet-is-turned-off--or-slow-)
+  * [Javascript is turned off](#javascript-is-turned-off)
+  * [Cookies are disabled](#cookies-are-disabled)
+  * [localstorage is disabled](#localstorage-is-disabled)
+  * [Colorblindness](#colorblindness)
+- [Install](#install)
+- [Shirt designer](#shirt-designer)
+- [Wireframes](#wireframes)
+- [Functional and reliable](#functional-and-reliable)
+  * [Audits](#audits)
+- [Useable](#useable)
+  * [Audits](#audits-1)
+- [Functional and reliable](#functional-and-reliable-1)
+- [Pleasurable](#pleasurable)
+- [Feature detection](#feature-detection)
+  * [Html](#html)
+  * [CSS](#css)
+  * [Javascript](#javascript)
+- [Sources](#sources)
+- [Exercises](#exercises)
+- [Accessability](#accessability)
+- [Conclusion](#conclusion)
+  * [What is Progressive enhancement.](#what-is-progressive-enhancement)
+  * [What is feature detection](#what-is-feature-detection)
+  * [In summary](#in-summary)
+- [License](#license)
 
 ## Browser Tests
 Since im developing on chrome im not going to include this in my test. 
