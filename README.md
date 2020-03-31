@@ -53,7 +53,7 @@ On safari the text on the homepage was overlapping.
 The solution to this problem was very simple since safari doesn't support em's. Just adding px values as fallback wil solve this problem.
 
 The width 0 and height 0 hack for the custom inputs doens't work on safari.
-also the labels are not focusable
+also the labels are not focusable (unless you turn on the screen reader then it will be able to focus)
 
 ## Feature research 
 ### Image's are not working
