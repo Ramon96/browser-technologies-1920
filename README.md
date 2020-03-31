@@ -396,6 +396,18 @@ https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/
 **Making labels focusable**
 https://stackoverflow.com/questions/27550415/tabindex-doesnt-make-a-label-focusable-using-tab-key
 
+## Accessability
+In order to make the website as accessable as possible I try to:
+- make the html and css as semantic as possible. Give prober titles, alt attributes. cascading avoiding inline css etc. the more semantic the better the user can navigate and tab. 
+
+- use as many as the supported focusable elements to make it better to navigate for users unable to the use the mouse
+
+- use javascript to enhance the site. If javascript is important to use the site then it means the site wont be able to be used by all users. Wat if the javascript doesnt load or work.
+
+- test the contrast. Some people are colorlbind and want to be able to use your site. thats why I check my audtis and online tools like color blinding to test if the site is useable for people with these kinds of dissabilities.
+
+- frequent testing. 
+
 ## License
 This project makes use of the [MIT](https://github.com/Ramon96/browser-technologies-1920/blob/master/LICENSE) license
 
