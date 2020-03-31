@@ -18,10 +18,42 @@ wip
 Since im developing on chrome im not going to include this in my test. 
 
 ## Firefox 74.0 (desktop)
+The preview text is not being updated. 
+The problem here was that the focusout event wasn't being triggered. 
+just simply changing the event focusout to blur solved this for me.
+
+also for some reason, firefox wasn't able to center the legends. so just for firefox I centered it with aboslute positioning.
+
+```css
+@media screen and (-moz-images-in-menus: 0) {
+    form fieldset {
+      position: relative;
+      margin-bottom: 20px;
+      margin-bottom: 1.25em;
+    }
+    fieldset>legend {
+      position: absolute;
+      top: 12px;
+      top: -0.75em;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+```
 
 ## Internet explorer 9
+Formaction wasn't proppaly working. Adding an action to the form solved this issue.
+
+The Text styling wasn't being applied to the shirt. `Classlist` wasn't being support so using classname instead solves this problem.
+
+grid is not supported in internet explorer. So I used float:left as my fallback.
 
 ## Safari 13.0.5
+On safari the text on the homepage was overlapping.
+The solution to this problem was very simple since safari doesn't support em's. Just adding px values as fallback wil solve this problem.
+
+The width 0 and height 0 hack for the custom inputs doens't work on safari.
+also the labels are not focusable
 
 ## Feature research 
 ### Image's are not working
