@@ -178,11 +178,13 @@ input[name=size]:checked+label {
 }
 
 input[name=color] {
-    pointer-events: none;
     display: block;
     position: absolute;
     opacity: 0;
     left: 50%;
+    /* pointer events none are not supported in ie below 11 so we cheat a little by hidding the input boxes a little lower so the user wont click on it */
+    pointer-events: none;
+    top: 80%;
     transform: translate(-50%, 0)
 }
 
@@ -229,8 +231,10 @@ input[name=fontcol]{
     position: absolute;
     opacity: 0;
     left: 50%;
-    transform: translate(-50%, 0);
+    /* pointer events none are not supported in ie below 11 so we cheat a little by hidding the input boxes a little lower so the user wont click on it */
     pointer-events: none;
+    top: 80%;
+    transform: translate(-50%, 0);
 }
 
 
