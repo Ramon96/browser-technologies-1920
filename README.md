@@ -17,7 +17,7 @@ wip
 ## Browser Tests
 Since im developing on chrome im not going to include this in my test. 
 
-## Firefox 74.0 (desktop)
+## Firefox 74.0 (desktop) Windows 10
 The preview text is not being updated. 
 The problem here was that the focusout event wasn't being triggered. 
 just simply changing the event focusout to blur solved this for me.
@@ -40,19 +40,17 @@ also for some reason, firefox wasn't able to center the legends. so just for fir
     }
   }
 ```
-
-
 also the 0 width and height on the input doesnt work on firefox.
 I could solve this  white visibility or opacity or even z-index. But those will hide the warning when the form is valid too! And I dont want that. (could solve this with an enhancement.)
 
-## Internet explorer 9
+## Internet explorer 9 Windows 10
 Formaction wasn't proppaly working. Adding an action to the form solved this issue.
 
 The Text styling wasn't being applied to the shirt. `Classlist` wasn't being support so using classname instead solves this problem.
 
 grid is not supported in internet explorer. So I used float:left as my fallback.
 
-## Safari 13.0.5
+## Safari 13.0.5  Osx 10.15.3
 On safari the text on the homepage was overlapping.
 The solution to this problem was very simple since safari doesn't support em's. Just adding px values as fallback wil solve this problem.
 
@@ -60,6 +58,15 @@ The width 0 and height 0 hack for the custom inputs doens't work on safari.
 also the labels are not focusable (unless you turn on the screen reader then it will be able to focus)
 I could solve this  white visibility or opacity or even z-index. But those will hide the warning when the form is valid too! And I dont want that.
 
+### Safari 13.3.1 (Mobile) Ios 13.3.1
+
+For some reason this seems to work better then the desktop version of safari. 
+Everything works as expected. 
+(input field seem to be 1 by 1 pixels but this is fine)
+
+
+### Chrome 69 (mobile) android 8.0.0
+Everything works flawlessly and as intended (Hurray!)
 
 ## Feature research 
 ### Image's are not working
