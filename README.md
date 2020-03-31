@@ -4,9 +4,11 @@
 
 ## Live demo
 click [here](https://bt-ramon.herokuapp.com/) to view the live demo
-<!-- ☝️ replace this description with a description of your own work -->
+
 ## Description
-The goal of this project to workout a Use case that works in most browsers and is very accessible. To do so we can build our project in  layers. Functional, Reliable and Usable and Pleasureable. I hope to learn alot about browser support and inclusive design during this project. 
+The goal of this project to workout a Use case that works in most browsers and is very accessible. To do so we can build our project in  layers. Functional, Reliable and Usable and Pleasureable. I hope to learn alot about browser support and inclusive design during this project.
+
+For this project I chose the case of making your own custom t-shirt design. And in my opnion the most import function of this case is being able to create a shirt and save it for later editing. That is what I mainly focussed on.
 
 
 ## Table of contents
