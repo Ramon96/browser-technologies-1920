@@ -43,6 +43,7 @@ also for some reason, firefox wasn't able to center the legends. so just for fir
 
 
 also the 0 width and height on the input doesnt work on firefox.
+I could solve this  white visibility or opacity or even z-index. But those will hide the warning when the form is valid too! And I dont want that. (could solve this with an enhancement.)
 
 ## Internet explorer 9
 Formaction wasn't proppaly working. Adding an action to the form solved this issue.
@@ -57,6 +58,8 @@ The solution to this problem was very simple since safari doesn't support em's. 
 
 The width 0 and height 0 hack for the custom inputs doens't work on safari.
 also the labels are not focusable (unless you turn on the screen reader then it will be able to focus)
+I could solve this  white visibility or opacity or even z-index. But those will hide the warning when the form is valid too! And I dont want that.
+
 
 ## Feature research 
 ### Image's are not working
