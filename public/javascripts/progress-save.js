@@ -79,7 +79,8 @@ if (storageAvailable('localStorage')) {
     var save = document.getElementById('save');
 
     if (save) {
-      save.classList.add('hide');
+      // classList is not supported in ie9 and lower :(
+      save.className = 'hide';
     }
 
     if (localStorage.getItem('text')) {

@@ -12,7 +12,7 @@
     <main>
         <section>
             <h2>Make your design</h2>
-            <form id="shirtdesign" method="GET">
+            <form id="shirtdesign" action="/final" method="GET">
                 <fieldset>
                   
                         <legend><label for="shirttext">Shirt text</label></legend>
@@ -108,7 +108,7 @@
                         checked="checked" {{/ifeq}}>
                     <label title="White" class="fontcol" for="whitetxt"></label>
                 </fieldset>
-
+                <!-- Formaction doesnt work on ie 10 or lower :( -->
                 <button id="save" formnovalidate formaction="/save" type="submit" name="state"
                     value="save">save</button>
                 <button formaction="/final" type="submit">Next step</button>
