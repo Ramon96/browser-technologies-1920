@@ -41,6 +41,9 @@ also for some reason, firefox wasn't able to center the legends. so just for fir
   }
 ```
 
+
+also the 0 width and height on the input doesnt work on firefox.
+
 ## Internet explorer 9
 Formaction wasn't proppaly working. Adding an action to the form solved this issue.
 
