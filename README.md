@@ -87,10 +87,22 @@ More elements have been added too so these got the necesarry styling aswell.
 ### Audits
 ![useable audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditscss.png?raw=true)
 
+## Functional and reliable
 
 
-## Wishlist
 
+## Pleasurable
+
+Now its time to have some fun, real fun.
+Up to now the user as already able to make a design, and save it for later use.
+
+Now lets extra elements to the page to make it more pleasureable to use 
+
+![pleasurable](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/pleasureable.png?raw=true)
+
+![pleasureable](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditsfunctional.png)
+
+If I had used JPEG 2000, JPEG XR, and WebP then I would have scored a 100 on perforamnce. So this is something I could add in a future update.
 
 ## Sources
 Can I use to see in what browsers things are supported
