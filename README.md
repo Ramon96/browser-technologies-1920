@@ -290,7 +290,7 @@ color blinding to simulate color blindness.
 I wanted to use a Color picker to color my shirts. This article confinced me not to
 https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/   
 
-**why you should avoud using tabindex**
+**Making labels focusable**
 https://stackoverflow.com/questions/27550415/tabindex-doesnt-make-a-label-focusable-using-tab-key
 
 ## License
