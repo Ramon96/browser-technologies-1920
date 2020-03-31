@@ -17,7 +17,6 @@ wip
 ## Browser Tests
 
 ## Feature research 
-
 ### Image's are not working
   The site is very much usable. The only tink not working is the live preview. 
   By usage of alt tags is still understandable what should have been shown to the user
@@ -58,6 +57,14 @@ Cookies disabled on its own shouldn't give any issue's. The problem however is t
 
 ### localstorage is disabled
 When the localstorage is disabled the user wont be able to close the form and continue later on. Instead when the localstorage is disabled a save button wil appear and the user will be able to store this link to continue later.
+
+### Colorblindness
+
+I was also a little worried my contrast wasn't right for people with color blindness (even tough the audits told me they are fine) 
+So I used the tool color blinding to test it for myself. I was worried the most about people having monochromacy sight (vision is reduced to blacks whites and greys) and the fact to the matter is. It looks fine
+
+![monochromacy](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/monochromacy.jpg?raw=true)
+
 
 ## Install 
 to install the project you want to first clone the project using the commnand 
