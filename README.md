@@ -19,16 +19,45 @@ wip
 ## Feature research 
 
 ### Image's are not working
-
+  The site is very much usable. The only tink not working is the live preview. 
+  By usage of alt tags is still understandable what should have been shown to the user
+  
+  ![how the demo looks without images](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/noimage.png?raw=true)
+  
 ### Custom fonts are off
+When custom fonts are disabled then the fallback will be used. You can declare the fallback inside the font-family and the browser will pick the supported font in ordinal order
+
+`font-family: 'Source Sans Pro', Geneva, sans-serif;`
+
+### Unable to use your mouse
+Incases you are unable to use your mouse you are most likey using your keyboard or you are on you mobile phone.
+With semantic html you should be able to navigate trough your website using **tab** and **arrow keys** 
+
+There where two things I had to keep in mind in my case
+The labels had no text so something needed to be read. To solve that I hadded a `title` attribute to the labels. 
+
+The labels need to be focusable
+applying  `visibility:hidden` and `opacity: 0` on the inputs will make the labels unfoccusable. The solution to this is to make the inputs 0px wide and 0 px heigh. dirty hack but it gets the job done.
+https://stackoverflow.com/questions/27550415/tabindex-doesnt-make-a-label-focusable-using-tab-key
 
 ### Internet is turned off (or slow)
+The user will be able to edit the forms. 
+however the preview wont be able to change colors since the images are loaded from the server. 
+Also the user wont be able to submit his/hers form. 
+
+I could solve this in the future using **browser caching** and/or **service worker**. But wasn't able to add this in the demo withing the given time limit
 
 ### Javascript is turned off
+When javascript is turned off the user wont be able to print the document because the browser is unable to call the `window.print`
+The live preview will no longer be updated live. (results will be shown on the results page)
+And the data wont be stored in the localstorage so a save button will appear. The save button wil show a url the user can navigate to get his changed values back when the user revisites the page.
 
 ### Cookies are disabled
+Cookies disabled on its own shouldn't give any issue's. The problem however is that somebrowsers (like google chrome for example) disable cookies and the localstorage all together wich mean saving on the localstorage wont be able. As a fallback the save button will apear.
+
 
 ### localstorage is disabled
+When the localstorage is disabled the user wont be able to close the form and continue later on. Instead when the localstorage is disabled a save button wil appear and the user will be able to store this link to continue later.
 
 ## Install 
 to install the project you want to first clone the project using the commnand 
