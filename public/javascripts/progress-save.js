@@ -102,7 +102,6 @@ if (storageAvailable('localStorage')) {
     }
 
     shirtText.addEventListener('blur', function () {
-      console.log('focusout working')
       saveValue("text", shirtText.value);
     });
 
@@ -144,6 +143,8 @@ if (storageAvailable('localStorage')) {
   console.warn('The user has disabled their localstorage');
 }
 
+
+// This function tests if the localstorage is working to avoid getting an ugly error message when it doesn't
 function storageAvailable(type) {
   try {
     var storage = window[type],
