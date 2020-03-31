@@ -178,7 +178,7 @@ input[name=size]:checked+label {
 }
 
 input[name=color] {
-
+    pointer-events: none;
     display: block;
     position: absolute;
     opacity: 0;
@@ -229,7 +229,8 @@ input[name=fontcol]{
     position: absolute;
     opacity: 0;
     left: 50%;
-    transform: translate(-50%, 0)
+    transform: translate(-50%, 0);
+    pointer-events: none;
 }
 
 
