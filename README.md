@@ -227,6 +227,7 @@ Im also checking if the localstorage can be used
 
 `if (storageAvailable('localStorage'))`
 
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#Testing_for_availability
 ```javascript
 
 // This function tests if the localstorage is working to avoid getting an ugly error message when it doesn't
