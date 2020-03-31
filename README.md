@@ -14,9 +14,21 @@ For this project I chose the case of making your own custom t-shirt design. And 
 ## Table of contents
 wip
 
-## Feature research 
-wip
+## Browser Tests
 
+## Feature research 
+
+### Image's are not working
+
+### Custom fonts are off
+
+### Internet is turned off (or slow)
+
+### Javascript is turned off
+
+### Cookies are disabled
+
+### localstorage is disabled
 
 ## Install 
 to install the project you want to first clone the project using the commnand 
