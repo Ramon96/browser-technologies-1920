@@ -100,6 +100,19 @@ If I had used JPEG 2000, JPEG XR, and WebP then I would have scored a 100 on per
 
 ### Html
 
+* formaction
+```html
+                <!-- Formaction doesnt work on ie 10 or lower :( -->
+                <button id="save" formnovalidate formaction="/save" type="submit" name="state"
+                    value="save">save</button>
+                <button formaction="/final" type="submit">Next step</button>
+```
+Im trying to control the flow of my form in my html using `formaction` unfortunatly this isn't supported in older browsers
+so as fallback I added the action on my form  
+
+
+`   <form id="shirtdesign" action="/final" method="GET">`
+
 ### CSS
 Im used to make alot of modern css properties. And that's completly fine if I make an fallback for users that don't use modern browsers
 
