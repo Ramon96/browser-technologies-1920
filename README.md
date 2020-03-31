@@ -262,6 +262,9 @@ So I used blur instead!
 ```
 
 ## Sources
+These are some sources I used 
+
+**Tools**
 Can I use to see in what browsers things are supported
 
 [caniuse](https://caniuse.com/)
@@ -283,19 +286,13 @@ color blinding to simulate color blindness.
 [opdracht 1.1](https://github.com/Ramon96/browser-technologies-1920/wiki/Opdracht-1.1)\
 [opdracht 1.2](https://github.com/Ramon96/browser-technologies-1920/wiki/Opdracht-1.2-Browser-Test)
 
+**Articles**
+I wanted to use a Color picker to color my shirts. This article confinced me not to
+https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/   
+
+**why you should avoud using tabindex**
+https://stackoverflow.com/questions/27550415/tabindex-doesnt-make-a-label-focusable-using-tab-key
 
 ## License
 This project makes use of the [MIT](https://github.com/Ramon96/browser-technologies-1920/blob/master/LICENSE) license
 
-
-
-
-
-
-
-// waarom color picker een slecht idee is
-https://css-tricks.com/color-inputs-a-deep-dive-into-cross-browser-differences/   
-
-
-// focusable labels
-https://stackoverflow.com/questions/27550415/tabindex-doesnt-make-a-label-focusable-using-tab-key
