@@ -15,6 +15,13 @@ For this project I chose the case of making your own custom t-shirt design. And 
 wip
 
 ## Browser Tests
+Since im developing on chrome im not going to include this in my test. 
+
+## Firefox 74.0 (desktop)
+
+## Internet explorer 9
+
+## Safari 13.0.5
 
 ## Feature research 
 ### Image's are not working
