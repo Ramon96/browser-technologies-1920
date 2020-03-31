@@ -1,12 +1,4 @@
 # Browser Technologies 
-
-# Feedback 
-1. is de readme al goed opweg. zijn er punten die je nog wilt zien? ik heb nu inderdaad wat lege kopjes in me readme staan, die wil ik aanvullen zodra het product af is.
-
-2. Zou je naar mijn live demo willen kijken? is dit prima voor een functional en usable layer? 
-
-3. Ik zit nog een beetje te worstelen met de tekst op het tshirt en het kleuren van de tshirt. in de ideale wereld los ik dat op met javascript wanneer de gebruiker hier toegang tot heeft, als dat niet het geval is laat ik het liefst een wit shirt zien met een dummy text erop. Zou dit prima zijn?
-
 ## Custom t-shirt designer
 ![customshirt](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/frontscreen.png?raw=true)
 
@@ -198,6 +190,63 @@ I solved doing so:
  https://stackoverflow.com/questions/27124746/centering-legend-in-firefox */
 
 ### Javascript
+
+* Const and let
+Not support so had to take them out :(
+
+* Classlist.add()
+This isn't supported on older browsers
+So I had to use `className` instead 
+
+* Only show when javascript is enable
+To show (or hide) a button when javascript is enable is actually pretty simple.
+Just check if the element returns true and append a class on that element to show or hide it.
+
+```javascript
+    if (save) {
+      // classList is not supported in ie9 and lower :(
+      save.className = 'hide';
+    }
+```
+
+The save button is not needed when the localstorage is enabled so we can hide it when that is the case
+Im also checking if the localstorage can be used
+
+`if (storageAvailable('localStorage'))`
+
+```javascript
+
+// This function tests if the localstorage is working to avoid getting an ugly error message when it doesn't
+function storageAvailable(type) {
+  try {
+    var storage = window[type],
+        x = '__storage_test__';
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+```
+
+You can also check if certain window event listeners are present like so.
+
+```javascript
+if (share && window.print) {
+  console.log('print is supported');
+```
+
+* focusout 
+focusout wasn't working on firefox as I liked. 
+I remembered ppk telling about this during one of his lectures. 
+
+So I used blur instead!
+```javascript
+    shirtText.addEventListener('blur', function () {
+      saveValue("text", shirtText.value);
+    });
+```
 
 ## Sources
 Can I use to see in what browsers things are supported
