@@ -104,6 +104,101 @@ Now lets extra elements to the page to make it more pleasureable to use
 
 If I had used JPEG 2000, JPEG XR, and WebP then I would have scored a 100 on perforamnce. So this is something I could add in a future update.
 
+## Feature detection 
+
+### Html
+
+### CSS
+Im used to make alot of modern css properties. And that's completly fine if I make an fallback for users that don't use modern browsers
+
+* Em's 
+Not all browsers seem to support Em's, so I used px as a fallback
+
+```css
+    margin-bottom: 20px; /* px fallback when ems dont work */
+    margin-bottom: 1.2em;
+```
+
+* Grid & Supports 
+
+Grid is not supported in all browsers
+In order to check if Grid is supported I can use this line
+` @supports (display: grid)`
+and then I can write my fallback. ( I use float left as fallback
+
+```css
+main#introMain div{
+    box-shadow: #00000061 7px 8px 15px;
+    padding-top: 28%;
+    margin: 15px;
+    margin: 0.9em;
+    width: 28%;
+    position: relative;
+    float: left;
+}
+```
+
+But what if Supports is not supported? 
+I solve this problem by writing my fallback first and below that what the browser should do if supports and grid are supported!
+So I like to avoid `@supports not`
+
+* pointer events
+This is more of a hack than a fallback in my opinion.
+So I am making use of custom radio buttons with the use of labels. 
+When an form is not valid the error wil be shown on the input rather than on the label. 
+This means that I wont be able to hide the input fields using `display: none`.
+What I can do is give the element 
+
+```css
+pointer-events: none;
+position: aboslute;
+opacity: 0;
+```
+
+Now the input wont be visible and it won't influence the layout.
+There is just 1 problem
+Not all browsers support pointer events. This means I wont be able to click on my labels
+To solve this I moved my labels using the `top attribute`
+
+```css
+input[name=color] , input[name=fontcol]{
+    display: block;
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    /* pointer events none are not supported in ie below 11 so we cheat a little by hidding the input boxes a little lower so the user wont click on it */
+    pointer-events: none;
+    top: 80%;
+    transform: translate(-50%, 0)
+}
+```
+
+* Centering labels on firefox
+For somereason its not possible to center legends on firefox using the "display block margin auto trick".
+
+
+I solved doing so: 
+```css
+@media screen and (-moz-images-in-menus: 0) {
+    form fieldset {
+      position: relative;
+      margin-bottom: 20px;
+      margin-bottom: 1.25em;
+    }
+    fieldset>legend {
+      position: absolute;
+      top: 12px;
+      top: -0.75em;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+```
+
+ https://stackoverflow.com/questions/27124746/centering-legend-in-firefox */
+
+### Javascript
+
 ## Sources
 Can I use to see in what browsers things are supported
 
