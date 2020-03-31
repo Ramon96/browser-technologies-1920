@@ -76,8 +76,18 @@ Now users will actually understand what they are looking at
 ![useable](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/designcss.png?raw=true)\
 Thats already better to look at
 
+I wasn't quite satisfied with the results so Decided to make another iteration on the design. 
+
+Now it looks moor like this!
+
+![iteration](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/mobile-iteration.png?raw=true)
+
+More elements have been added too so these got the necesarry styling aswell.
+
 ### Audits
 ![useable audits](https://github.com/Ramon96/browser-technologies-1920/blob/master/documentation/auditscss.png?raw=true)
+
+
 
 ## Wishlist
 
