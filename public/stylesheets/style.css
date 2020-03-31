@@ -332,15 +332,18 @@ main {
 
 aside section,
 main section {
+    padding: 20px;
     padding: 1.25em;
 }
 
 main{
+    padding-bottom: 32px;
     padding-bottom: 2em;
 }
 
 
 aside#intro{
+    padding-bottom: 48px;
     padding-bottom: 3em;
     max-width: 70%;
     text-align: left;
@@ -348,7 +351,9 @@ aside#intro{
 }
 
 aside#intro p{
+    font-size: 18px;
     font-size: 1.2em;
+    margin-bottom: 32px;
     margin-bottom: 2em;
 }
 
