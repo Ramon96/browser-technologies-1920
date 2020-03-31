@@ -455,7 +455,7 @@ There are also some native feature detections like `@supports in css`
 
 but somethimes supports isn't supported and you should write a propper fallback.
 
-### In summaray
+### In summary
 I have learned alot from this subject. I didn't like this subject at first but the more I was working on this and improving my browser the more I started to like it. It gives you that feeling of "Wow my application is actually gonna work for everyone." It gives you a better sense of control and you know what you should exepct from certain excaptions. (You will know a screenreaders need to get its information from semantic markup)
 
 The most important takes are
